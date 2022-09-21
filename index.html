@@ -10,16 +10,58 @@
 <body>
     <section id="adatok">
     <form>
-        <label for="meret" class="left">Irja be cm-ben szamitott testmagassagat (cipo nelkul merve)</label>
-        <input type="text" id="meret" class="right"><br>
-
-        <label for="kg" class="left">Irja be kg-ban szamitott testsulyat (cipo nelkul merve)</label>
-        <input type="text" id="kg" class="right"><br>
-
-        <button id="szamit"">Szamitas</button>
+        <table>
+            <tr>
+                <td><label for="meret" class="left">Irja be cm-ben szamitott testmagassagat (cipo nelkul merve)</label></td>
+                <td><input type="number" id="meret" class="right"><span>cm</span><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="kg" class="left">Irja be kg-ban szamitott testsulyat (cipo nelkul merve)</label></td>
+                <td><input type="number" id="kg" class="right"><span>kg</span><br><br></td>
+            </tr>
+            <tr>
+                <td><button id="szamit"">Szamitas</button></td>
+            </tr>
+        </table>
     </form>
 </section>
+<section id="bmi">
+    <p>Az on BMI erteke: </p>
+    <table>
+        <tr>
+            <td><span>18,5 vagy kevesebb</span></td>
+            <td><span>SOVANY</span></td>
+        </tr>
 
+        <tr>
+            <td><span>18,5 - 24,9</span></td>
+            <td><span>NORMAL</span></td>
+        </tr>
+
+        <tr>
+            <td><span>25 - 29,9</span></td>
+            <td><span>TULSULY</span></td>
+        </tr>
+
+        <tr>
+            <td><span>30 - 34,9</span></td>
+            <td><span>I. FOKU ELHIZAS</span></td>
+        </tr>
+
+        <tr>
+            <td><span>35 - 39,9</span></td>
+            <td><span>II. FOKU ELHIZAS</span></td>
+        </tr>
+
+        <tr>
+            <td><span>40 vagy tobb</span></td>
+            <td><span>III. FOKU ELHIZAS</span></td>
+        </tr>
+        
+    </table>
+
+
+</section>
 
 
 </body>
