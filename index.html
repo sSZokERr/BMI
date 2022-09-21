@@ -9,7 +9,6 @@
 </head>
 <body>
     <section id="adatok">
-    <form>
         <table>
             <tr>
                 <td><label for="meret" class="left">Irja be cm-ben szamitott testmagassagat (cipo nelkul merve)</label></td>
@@ -23,10 +22,9 @@
                 <td><button id="szamit"">Szamitas</button></td>
             </tr>
         </table>
-    </form>
 </section>
 <section id="bmi">
-    <p>Az on BMI erteke: </p>
+    <p>Az on BMI erteke: <span id="ered"></span></p>
     <table>
         <tr>
             <td><span>18,5 vagy kevesebb</span></td>
@@ -63,6 +61,6 @@
 
 </section>
 
-
+<script src="main.js"></script>
 </body>
 </html>
