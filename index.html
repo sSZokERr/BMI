@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
-    WORKING....
+    <section id="adatok" >
+        <table class="form">
+            <tr>
+                <td><label for="meret" class="left">Irja be cm-ben szamitott testmagassagat (cipo nelkul merve)</label></td>
+                <td><input type="number" id="meret" class="right"><span>cm</span><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="kg" class="left">Irja be kg-ban szamitott testsulyat (cipo nelkul merve)</label></td>
+                <td><input type="number" id="kg" class="right"><span>kg</span><br><br></td>
+            </tr>
+            <tr>
+                <td><button id="szamit" class="button">Szamitas</button></td>
+            </tr>
+        </table>
+</section>
+<section id="bmi">
+    <center><p class="fontColor">Az on BMI erteke: <i><span id="ered"></span></i></p></center>
+    <table class="underLine bmi fontColor">
+        <tr id="sov">
+            <td><span>18,5 vagy kevesebb</span></td>
+            <td><span>SOVANY</span></td>
+        </tr>
+
+        <tr id="nor">
+            <td><span>18,5 - 24,9</span></td>
+            <td><span>NORMAL</span></td>
+        </tr>
+
+        <tr id="tul">
+            <td><span>25 - 29,9</span></td>
+            <td><span>TULSULY</span></td>
+        </tr>
+
+        <tr id="elso">
+            <td><span>30 - 34,9</span></td>
+            <td><span>I. FOKU ELHIZAS</span></td>
+        </tr>
+
+        <tr id="masodik">
+            <td><span>35 - 39,9</span></td>
+            <td><span>II. FOKU ELHIZAS</span></td>
+        </tr>
+
+        <tr id="harmadik">
+            <td><span>40 vagy tobb</span></td>
+            <td><span>III. FOKU ELHIZAS</span></td>
+        </tr>
+        
+    </table>
+
+
+</section>
+
+<script src="main.js"></script>
 </body>
 </html>
