@@ -4,3 +4,41 @@
 .left{
     float:left;
 }
+.form{
+    margin:auto;
+    width: 700pt;
+    background-color: orange;
+}
+.bmi{
+    margin:auto;
+}
+.button{
+    background-color: white;
+  border: none;
+  color: orange;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.fontColor{
+    color: orange;
+}
+.underLine {
+    border-collapse: collapse;
+    width: 700pt;
+  }
+  
+.underLine tr{
+    border-bottom: 1px solid black;
+    height: 50pt;
+  }
+  
+.underLine tr:last-child {
+    border: 0;
+  }
+
+.underLine tr td:first-child{
+    text-align: center;
+}
